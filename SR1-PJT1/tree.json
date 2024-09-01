@@ -1,0 +1,198 @@
+[
+  {
+    "name" : "MPlayer",
+    "type" : "Lien"
+  },
+  {
+    "name" : "awstats",
+    "type" : "Dossier",
+    "list" : []
+
+  },
+  {
+    "name" : "lost+found",
+    "type" : "Dossier",
+    "list" : []
+
+  },
+  {
+    "name" : "mirrors",
+    "type" : "Dossier",
+    "list" : [
+      {
+        "name" : "CPAN",
+        "type" : "Lien"
+      }, 
+      {
+        "name" : "archive.ubuntu.com",
+        "type" : "Lien"
+      }, 
+      {
+        "name" : "cdimage.debian.org",
+        "type" : "Lien"
+      }, 
+      {
+        "name" : "cdimage.kali.org",
+        "type" : "Lien"
+      }, 
+      {
+        "name" : "documentfoundation.org",
+        "type" : "Lien"
+      }, 
+      {
+        "name" : "download.linuxtag.org",
+        "type" : "Dossier",
+        "list" : []
+      }, 
+      {
+        "name" : "fannagioscd",
+        "type" : "Lien"
+      }, 
+      {
+        "name" : "fedora.redhat.com",
+        "type" : "Lien"
+      }, 
+      {
+        "name" : "ftp.abuledu.org",
+        "type" : "Lien"
+      }, 
+      {
+        "name" : "ftp.centos.org",
+        "type" : "Lien"
+      }, 
+      {
+        "name" : "ftp.debian.org",
+        "type" : "Lien"
+      }, 
+      {
+        "name" : "ftp.freebsd.org",
+        "type" : "Lien"
+      }, 
+      {
+        "name" : "ftp.fsn.hu",
+        "type" : "Lien"
+      }, 
+      {
+        "name" : "ftp.gentoo.org",
+        "type" : "Lien"
+      }, 
+      {
+        "name" : "ftp.kernel.org",
+        "type" : "Lien"
+      }, 
+      {
+        "name" : "ftp.knoppix.org",
+        "type" : "Lien"
+      }, 
+      {
+        "name" : "ftp.netbsd.org",
+        "type" : "Lien"
+      }, 
+      {
+        "name" : "ftp.openoffice.org",
+        "type" : "Lien"
+      }, 
+      {
+        "name" : "ftp.opensuse.org",
+        "type" : "Lien"
+      }, 
+      {
+        "name" : "ftp.ubuntu.com",
+        "type" : "Lien"
+      }, 
+      {
+        "name" : "ftp.xubuntu.com",
+        "type" : "Lien"
+      }, 
+      {
+        "name" : "http.kali.org",
+        "type" : "Lien"
+      }, 
+      {
+        "name" : "mageia.org",
+        "type" : "Lien"
+      }, 
+      {
+        "name" : "mplayerhq.hu",
+        "type" : "Lien"
+      }, 
+      {
+        "name" : "nonus.debian.org",
+        "type" : "Lien"
+      }, 
+      {
+        "name" : "security.kali.org",
+        "type" : "Lien"
+      }, 
+      {
+        "name" : "tails.boum.org",
+        "type" : "Lien"
+      }
+    ]
+
+  },
+  {
+    "name" : "nzb",
+    "type" : "Dossier",
+    "list" : []
+
+  },
+  {
+    "name" : "pub",
+    "type" : "Dossier",
+    "list" : [
+      {
+        "name" : "CPAN",
+        "type" : "Lien"
+      }, 
+      {
+        "name" : "Distributions_Linux",
+        "type" : "Dossier",
+        "list" : []
+      }, 
+      {
+        "name" : "FreeBSD",
+        "type" : "Lien"
+      }, 
+      {
+        "name" : "NetBSD",
+        "type" : "Lien"
+      }, 
+      {
+        "name" : "elixir",
+        "type" : "Dossier",
+        "list" : []
+      }, 
+      {
+        "name" : "kali",
+        "type" : "Lien"
+      }, 
+      {
+        "name" : "kali-images",
+        "type" : "Lien"
+      }, 
+      {
+        "name" : "kali-security",
+        "type" : "Lien"
+      }, 
+      {
+        "name" : "linux",
+        "type" : "Dossier",
+        "list" : []
+      }
+    ]
+
+  },
+  {
+    "name" : "stats",
+    "type" : "Dossier",
+    "list" : []
+
+  },
+  {
+    "name" : "tmp",
+    "type" : "Dossier",
+    "list" : []
+
+  }
+]
