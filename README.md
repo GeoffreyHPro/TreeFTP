@@ -2,14 +2,8 @@
 
 Commande shell qui affiche l'arborescence d'un répertoire distant via FTP en java
 
-HERMAN Geoffrey
-
-
 Récupération du projet 
 ----
-
-adresse du repot:
- https://gitlab-etu.fil.univ-lille.fr/geoffrey.herman.etu/sr1-pjt1
 
 Une fois avoir git clone le projet,
 on effectue toutes les commandes suivantes dans le dossier SR1-PJT1
