@@ -1,15 +1,23 @@
 # Projet 1 - SR1
 
-Commande shell qui affiche l'arborescence d'un répertoire distant via FTP en java
+Shell command connnect with FTP server. This command print the tree of files and directories in the FTP server with a deep number of repertory.
 
-Récupération du projet 
-----
+# 🛠 Skills
+Java, FTP server, FTP protocol ...
 
-Une fois avoir git clone le projet,
-on effectue toutes les commandes suivantes dans le dossier SR1-PJT1
-le dossier contenant /src tree.json pom.xml
+# Technologies and versions (works) 
 
-# Commandes pour maven
+| Library | version |
+| --- | --- |
+| Apache Maven | 3.9.6 |
+| Java | 22 |
+
+# Get project
+
+After git clone the project,
+following commands are executed in repertory SR1-PJT1
+
+## Maven commands
 
 Toutes les commandes sont à exécuter dans la racine du projet contenant pom.xml et src:
 
@@ -21,18 +29,9 @@ Toutes les commandes sont à exécuter dans la racine du projet contenant pom.xm
 
 - java -jar target/TreeFtp-1.0.jar *adresse serveur*
 
-exemple de serveur à tester:
+server test:
 - ftp.free.fr
 - ftp.ubuntu.com
-
-Qu'est ce que le FTP
---------------------- 
-
-File Transfer Protocol (protocole de transfert de fichier), ou FTP, est un protocole de communication destiné au partage de fichiers sur un réseau TCP/IP. Il permet, depuis un ordinateur, de copier des fichiers vers un autre ordinateur du réseau, ou encore de supprimer ou de modifier des fichiers sur cet ordinateur. Ce mécanisme de copie est souvent utilisé pour alimenter un site web hébergé chez un tiers. 
-
-Pour créer ce client FTP :
-- une socket est créée pour transmettre les commandes désirées
-- une autre socket est nécessaire pour la commande "list" permettant la récupération des données. 
 
 # Architecture 
 
@@ -120,34 +119,3 @@ La socketDonnees est présente seulement dans la classe List car elle permet de 
 -----
 
 ![structure de l'arbre](doc/SocketFonctionnement.jpg)
-
-
-
-
-
-
-
-# Ce qu'il a fallu ajouter au projet 
-
-- problème de génération javadoc -> 
-
-<profiles>
-    <profile>
-        <id>jdk-8-config</id>
-        <activation>
-            <jdk>1.8</jdk>
-        </activation>
-        <properties>
-            <javadocExecutable>${java.home}/../bin/javadoc</javadocExecutable>
-        </properties>
-    </profile>
-    <profile>
-        <id>jdk-11-config</id>
-        <activation>
-            <jdk>11</jdk>
-        </activation>
-        <properties>
-            <javadocExecutable>${java.home}/bin/javadoc</javadocExecutable>
-        </properties>
-    </profile>
-</profiles>
